@@ -15,5 +15,12 @@
         "psr-4": {
             "Arseni\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arseni\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
